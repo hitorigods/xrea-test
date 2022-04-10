@@ -10,4 +10,5 @@ https://github.com/hitorigods/lp-practice-static/projects/1
 
 # サイトのURL
 http://hitorigods.s223.xrea.com/
+
 http://www.hitorigods.shop/
