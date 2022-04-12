@@ -18,3 +18,7 @@ http://www.hitorigods.shop/
 # SSH接続
 
 $ ssh hitorigods@s223.xrea.com
+
+# IP登録
+
+https://cp.xrea.com/site/tools/
