@@ -22,6 +22,14 @@ https://hitorigods.shop/
 $ ssh hitorigods@s223.xrea.com
 ```
 
+# GitでSSHのパスフレーズ入力を省略
+
+```
+$ eval `ssh-agent`
+$ ssh-add '/c/Users/HIRO/.ssh/id_rsa'
+```
+
+
 # SSH接続IP許可
 
 https://cp.xrea.com/site/tools/
