@@ -14,3 +14,7 @@ https://hitorigods.shop/
 http://hitorigods.s223.xrea.com/
 
 http://www.hitorigods.shop/
+
+# SSH接続
+
+ssh hitorigods@s223.xrea.com
