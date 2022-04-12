@@ -18,9 +18,9 @@ https://hitorigods.shop/
 
 
 # SSH接続
-
+```
 $ ssh hitorigods@s223.xrea.com
-
+```
 
 # SSH接続IP許可
 
