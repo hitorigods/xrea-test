@@ -19,6 +19,6 @@ http://www.hitorigods.shop/
 
 $ ssh hitorigods@s223.xrea.com
 
-# IP登録
+# SSH接続IP許可
 
 https://cp.xrea.com/site/tools/
