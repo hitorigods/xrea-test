@@ -9,6 +9,8 @@
 https://github.com/hitorigods/lp-practice-static/projects/1
 
 # サイトのURL
+https://hitorigods.shop/
+
 http://hitorigods.s223.xrea.com/
 
 http://www.hitorigods.shop/
