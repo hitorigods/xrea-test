@@ -7,7 +7,7 @@
 このリポジトリのタスクはプロジェクトにて管理されています。
 タスクの追加・進行・完了時は、プロジェクトの更新も忘れないようにしてください。
 
-https://github.com/hitorigods/hitorigods-xrea/projects/1
+https://github.com/hitorigods/lp-practice-static/projects/1
 
 
 # サイトのURL
