@@ -22,3 +22,5 @@ $ ssh hitorigods@s223.xrea.com
 # SSH接続IP許可
 
 https://cp.xrea.com/site/tools/
+
+グローバルIPアドレスが変わった場合
