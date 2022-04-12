@@ -41,5 +41,5 @@ https://cp.xrea.com/site/tools/
 プロジェクトディレクトリで以下のコマンドを実行
 
 ```
-sh deploy.sh
+$ sh deploy.sh
 ```
