@@ -35,3 +35,11 @@ $ ssh-add '/c/Users/HIRO/.ssh/id_rsa'
 https://cp.xrea.com/site/tools/
 
 グローバルIPアドレスが変わった場合
+
+# リリース手順
+
+プロジェクトディレクトリで以下のコマンドを実行
+
+```
+sh deploy.sh
+```
