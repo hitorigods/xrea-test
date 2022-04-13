@@ -28,7 +28,10 @@ $ ssh hitorigods@s223.xrea.com
 $ eval `ssh-agent`
 $ ssh-add '/c/Users/HIRO/.ssh/id_rsa'
 ```
-
+WSL2接続の場合
+```
+$ ssh-add ~/.ssh/id_rsa
+```
 
 # SSH接続IP許可
 
