@@ -1,0 +1,9 @@
+on: push
+name: check_global_ip
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: show global ip
+        run: |
+          curl https://inet-ip.info/
