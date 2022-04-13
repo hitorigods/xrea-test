@@ -47,3 +47,9 @@ $ sh deploy.sh
 # グローバルIPアドレスの確認方法
 
 https://inet-ip.info/
+
+# GithubのグローバルIPアドレスの確認方法
+
+https://github.com/hitorigods/lp-practice-static/runs/6000145359?check_suite_focus=true
+
+「show global ip」タブに表示
