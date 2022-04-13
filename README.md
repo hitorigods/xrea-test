@@ -43,3 +43,7 @@ https://cp.xrea.com/site/tools/
 ```
 $ sh deploy.sh
 ```
+
+# グローバルIPアドレスの確認方法
+
+https://inet-ip.info/
