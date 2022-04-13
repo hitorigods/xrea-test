@@ -7,12 +7,22 @@ jobs:
     steps:
     - name: 🚚 Get latest code
       uses: actions/checkout@v2
+    - name: 🔍 Allow IP
+      run: |
+        GLOBAL_IP=`curl inet-ip.info`
+        curl -X POST https://api.xrea.com/v1/tool/ssh_ip_allow \
+        -d "account=hitorigods" \
+        -d "server_name=s223.xrea.com" \
+        -d "api_secret_key=IzfVRmemPaHG7RHtLMDR4HABdGXIZmak" \
+        -d "param[addr]=${GLOBAL_IP}"
     
     - name: 📂 Sync files
-      uses: SamKirkland/FTP-Deploy-Action@4.3.0
-      with:
-        server: s223.xrea.com
-        username: hitorigods
-        password: ${{ secrets.ftp_password }}
-        protocol: ftps
-        server-dir: ./lp-practice-static/
+      env:
+        SSH_KEY: ${{ secrets.SSH_KEY }}
+      run: |
+        sleep 300
+        mkdir -p ~/.ssh
+        echo "${SSH_KEY}" > ~/.ssh/id_rsa
+        chmod 400 ~/.ssh/id_rsa
+        ssh-keyscan s223.xrea.com >> ~/.ssh/known_hosts
+        rsync -av ./ hitorigods@s223.xrea.com:~/lp-practice-static
